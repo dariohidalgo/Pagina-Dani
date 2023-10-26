@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daniela Voos</title>
+    <link rel="shortcut icon" href="./Public/imagenes/shield-dog-solid.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Estilos/estilos.css" />
+  </head>
+  <body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3">
+      <div class="container">
+        <h5 class="navbar-brand " href="#">Pet Vet Marketing</h5>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse me-5" id="navbarText">
+          <ul class="navbar-nav ms-auto ">
+            <li><a class="nav-link text-light" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li> <a class="nav-link text-light" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li> <a class="nav-link text-light me-4" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="nav-item ">
+              <a class="nav-link text-light" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Acerca de mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Trabajos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="showcase pt-2 bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6   text-light">
+            <div class="display-1 py-5">
+              <h1 class="text-center">Gerente comercial de Marketing</h1>
+            </div>
+            <div class="d-flex">
+              <div class="row">
+                <div class="col-md-7 ">
+                  <img
+                    src="./Public/imagenes/dani.jpeg"
+                    alt=""
+                    class="img-fluid rounded-5 img-thumbnail w-auto"
+                  />
+                </div>
+                <div class="col-md-5 pe-2">
+                  <p class="lead lh-base fw-lighter border-top pt-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nulla modi itaque quasi in accusantium nesciunt magnam, ducimus sunt, mollitia veniam consequuntur! Est beatae mollitia incidunt illo, harum temporibus cumque!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 ms-5  ">
+            <div class="card p-5  bg-secondary text-bg-light">
+                <div class=" bg-secondary text-light">
+                    <div class="card-body bg-secondary">
+                        <div class="card-title text-center pb-3">
+                            <p class="lead text-uppercase fw-lighter">Envia tu consulta</p>
+                            <p class="lead fw-lighter">Me pondre en contacto contigo lo antes posible</p>
+                        </div>
+                        <form  action="https://formsubmit.co/Dvoosgnvet@gmail.com" method="POST" target="_blank" id="formul">
+                            <div class="mb-3 d-flex w-100">
+                                <input type="text" placeholder="Nombre" class="form-control bg-light rounded-0 mb-3" name="Nombre" />
+                            </div>
+                            <div class="mb-3 d-flex w-100">
+                                <input type="email" placeholder="Email" class="form-control bg-light rounded-0 mb-3" name="Email"/>
+                            </div>
+                            <div class="mb-3 d-flex w-100">
+                                <input type="phone" placeholder="Telefono" class="form-control bg-light rounded-0 mb-3" name="Telefono"/>
+                            </div>
+                            <div class="mb-3 d-flex w-100">
+                                <textarea type="text" placeholder="Consulta" class="form-control bg-light rounded-0 mb-3" name="Consulta"></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-secondary rounded-0 mb-3 w-100" value="ENVIAR">
+                        </form>
+                    </div>
+                   
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Cards -->
+    <section class="container cards mb-4">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-center bg-body-secondary shadow-lg ">
+                <h5 class="card-title ">Hello World</h5>
+                <img src="./Public/imagenes/InstagramMarketing.jpg" class="card-img-top w-25" alt="">
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque, ut modi quasi vero assumenda!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-center bg-body-secondary shadow-lg">
+                <h5 class="card-title">Hello World</h5>
+                <img src="./Public/imagenes/facebook-marketing.jpg" class="card-img-top w-25 " alt="">
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur corrupti sit eaque repellendus velit at.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card shado">
+              <div class="card-body text-center bg-body-secondary shadow-lg">
+                <h5 class="card-title">Hello World</h5>
+                <img src="./Public/imagenes/InstagramMarketing.jpg" class="card-img-top w-25" alt="">
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur corrupti sit eaque repellendus velit at.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-center bg-body-secondary shadow-lg">
+                <h5 class="card-title">Hello World</h5>
+                <img src="./Public/imagenes/facebook-marketing.jpg" class="card-img-top w-25 " alt="">
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur corrupti sit eaque repellendus velit at.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
